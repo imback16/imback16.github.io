@@ -11,9 +11,9 @@
         img{max-width: 100px;margin:0 0 20px 0;}
     </style>
 
-<?php if(!empty($_GET['fbid'])){?>
-        <img style="display:none;" src="https://www.facebook.com/tr?id=?fbid='.$_GET['fbid'];?>&ev=Lead&noscript=1" width="1px" height="1px">
-    <?php }?>
+<?html if(!empty($_GET['fbid'])){?>
+        <img style="display:none;" src="https://www.facebook.com/tr?id=<?html echo $_GET['fbid'];?>&ev=Lead&noscript=1" width="1px" height="1px">
+    <?html }?>
 
 </head>
 
